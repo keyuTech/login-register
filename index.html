@@ -16,50 +16,56 @@
     <main>
         <div class="modal">
             <div class="flip-modal login">
-                <a href="#"><i class="close fa fa-window-close-o"></i></a>
-                <div class="switch">
-                    <a href="#" class="switch-login active">登录</a>
-                    <a href="#" class="switch-register">注册</a>
+                <div class="modal-login">
+                    <a href="#"><i class="close fa fa-window-close-o"></i></a>
+                    <div class="switch">
+                        <a href="#" class="switch-login active">登录</a>
+                        <a href="#" class="switch-register">注册</a>
+                    </div>
+                    <p class="message">用户名需输入6-12个字符，包括字母、数字、下划线</p>
+                    <form action="#" method="POST">
+                        <div class="input-area">
+                            <i class="fa fa-user-o"></i>
+                            <input type="text" placeholder="用户名"> 
+                        </div>
+                        <div class="input-area">
+                            <i class="fa fa-lock"></i>
+                            <input type="password" placeholder="密码"> 
+                        </div>
+                        <div class="input-area">
+                            <input type="submit" value="登录">
+                        </div>
+                    </form>
                 </div>
-                <p class="message">用户名需输入6-12个字符，包括字母、数字、下划线</p>
-                <form action="#" method="POST">
-                    <div class="username">
-                        <i class="fa fa-user-o"></i>
-                        <input type="text" placeholder="用户名"> 
-                    </div>
-                    <div class="password">
-                        <i class="fa fa-lock"></i>
-                        <input type="password" placeholder="密码"> 
-                    </div>
-                    <div>
-                        <input type="submit" value="登录">
-                    </div>
-                </form>
             </div>
             <div class="flip-modal register">
-                <a href="#"><i class="close fa fa-window-close-o"></i></a>
-                <div class="switch">
-                    <a href="#" class="switch-login">登录</a>
-                    <a href="#" class="switch-register active">注册</a>
+                <div class="modal-register">
+                    <a href="#"><i class="close fa fa-window-close-o"></i></a>
+                    <div class="switch">
+                        <a href="#" class="switch-login">登录</a>
+                        <a href="#" class="switch-register active">注册</a>
+                    </div>
+                    <p class="message">用户名需输入6-12个字符，包括字母、数字、下划线</p>
+                    <form action="#" method="POST">
+                        <div class="input-area">
+                            <i class="fa fa-user-o"></i>
+                            <input type="text" placeholder="请输入用户名"> 
+                        </div>
+                        <div class="input-area">
+                            <i class="fa fa-lock"></i>
+                            <input type="password" placeholder="请输入密码"> 
+                        </div>
+                        <div class="input-area">
+                            <i class="fa fa-lock"></i>
+                            <input type="password" placeholder="再次输入密码"> 
+                        </div>
+                        <div class="input-area">
+                            <input type="submit" value="注册">
+                        </div>
+                    </form>
                 </div>
-                <p class="message">用户名需输入6-12个字符，包括字母、数字、下划线</p>
-                <form action="#" method="POST">
-                    <div class="username">
-                        <i class="fa fa-user-o"></i>
-                        <input type="text" placeholder="请输入用户名"> 
-                    </div>
-                    <div class="password">
-                        <i class="fa fa-lock"></i>
-                        <input type="password" placeholder="请输入密码"> 
-                    </div>
-                    <div class="password">
-                        <i class="fa fa-lock"></i>
-                        <input type="password" placeholder="再次输入密码"> 
-                    </div>
-                    <div>
-                        <input type="submit" value="注册">
-                    </div>
-                </form>
+                
+                
             </div>
         </div>
         <script type="text/javascript" src="script/script.js"></script>
