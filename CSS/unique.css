@@ -12,6 +12,12 @@ header a {
     margin-right: 20px;
     font-size: 30px;
 }
+.none {
+    display: none;
+}
+.show {
+    display: block;
+}
 .flip-modal-login, .flip-modal-register {
     width: 500px;
     position: absolute;
